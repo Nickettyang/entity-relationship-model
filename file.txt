@@ -1,0 +1,23 @@
++----------------+             +--------------------+             +----------------+
+|  Gymnasium     | 1         * |    Member          | *         * |   Session      |
++----------------+             +--------------------+             +----------------+
+| Gym_ID (PK)    |             | Member_ID (PK)     |             | Session_ID (PK)|
+| Name           |             | Last_Name          |             | Type_of_Sport  |
+| Address        |             | First_Name         |             | Schedule       |
+| Telephone_No   |             | Address            |             | Max_Members    |
++----------------+             | DOB                |             +----------------+
+                              | Gender             |                  
+                              +--------------------+                 
+                                      |                       
+                                      |                       
+                             +--------+--------+                  
+                             |                 |                  
+                          +------------+    +------------+            
+                          |   Coach    |    |  Led_By    |             
+                          +------------+    +------------+              
+                          | Coach_ID   |    | Session_ID |             
+                          | Last_Name  |    | Coach_ID   |             
+                          | First_Name |    +------------+             
+                          | Age        |                          
+                          | Specialty  |                          
+                          +------------+
